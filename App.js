@@ -1,6 +1,8 @@
+import { Text } from "react-native";
 import { useState } from "react";
 
-export default function App( ) {
+export default function App( ) {  
+
   const [textItem,setTextItem] = useState ("");
   const [list, setList] = useState ([]);
   const [itemSelected, setItemSelected] = useState({});
@@ -30,3 +32,4 @@ export default function App( ) {
     </View>
   )
 }
+
